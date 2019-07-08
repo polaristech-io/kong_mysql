@@ -1,3 +1,7 @@
+---
+sidebar: auto
+sidebarDepth: 2
+---
 # Kong使用MySQL
 
 Kong默认支持的数据库包括PostgreSQL和Cassandra，在实际使用中，很多用户都是MySQL重度用户。针对这些用户，我们开发了MySQL DAO。目前已经验证和测试过的环境是CentOS7+MySQL5.7+或者CentOs7+Mariadb10+。
@@ -46,3 +50,11 @@ kong migrations up
 ~~~
 curl http://localhost:8001/
 ~~~
+
+## issue处理
+
+目前代码还不具备开源的条件，我们使用这个[github的repo](https://github.com/polaristech-io/kong_mysql)用来跟踪issue。如果大家喜欢这个功能，可以给这个repo点赞。如果能到1K Star，就开一个pr把代码提交到kong社区。
+
+## 版本
+
+目前这个下载的是基于kong 0.14的社区版；针对kong 1.x社区版的开发在进行中。好用了之后也会放出下载。
