@@ -1,12 +1,8 @@
----
-sidebar: auto
-sidebarDepth: 2
----
 # Kong使用MySQL
 
 Kong默认支持的数据库包括PostgreSQL和Cassandra，在实际使用中，很多用户都是MySQL重度用户。针对这些用户，我们开发了MySQL DAO。目前已经验证和测试过的环境是CentOS7+MySQL5.7+或者CentOs7+Mariadb10+。
 
-这里是下载链接：[kong-0.14.1-51.el7_pl.x86_64.rpm](https://www.polaristech.io/assets/kong-0.14.1-51.el7_pl.x86_64.rpm) MD5为9740c60baf57d17f1aceecb1800d7a1e
+这里是下载链接：[kong-0.14.1-51.el7_pl.x86_64.rpm](http://www.polaristech.io/assets/kong-0.14.1-51.el7_pl.x86_64.rpm) MD5为9740c60baf57d17f1aceecb1800d7a1e
 
 ## 安装步骤
 
